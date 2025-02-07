@@ -22,6 +22,7 @@ torch_clustering: https://github.com/Hzzone/torch_clustering
 ## Citation
 If this code is helpful, you are welcome to cite our paper.
 
+```
 @inproceedings{
 li2025conmix,
 title={ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering},
@@ -30,3 +31,4 @@ booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=3lH8WT0fhu}
 }
+```
