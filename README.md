@@ -1,16 +1,4 @@
-## Requirements
-faiss==1.5.3
-matplotlib==3.7.3
-munkres==1.1.4
-numpy==1.24.4
-numpy==1.24.3
-Pillow==10.0.1
-Pillow==10.3.0
-scikit_learn==1.3.0
-scipy==1.10.1
-torch==1.13.1+cu117
-torchvision==0.14.1+cu117
-tqdm==4.66.1
+The code is for paper: ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering (ICLR'25)
 
 ## Training
 ```bash
@@ -30,3 +18,15 @@ use the specific experiment name for testing.
 SDCLR: https://github.com/VITA-Group/SDCLR
 
 torch_clustering: https://github.com/Hzzone/torch_clustering
+
+## Citation
+If this code is helpful, you are welcome to cite our paper.
+
+@inproceedings{
+li2025conmix,
+title={ConMix: Contrastive Mixup at Representation Level for Long-tailed Deep Clustering},
+author={Zhixin Li and Yuheng Jia},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=3lH8WT0fhu}
+}
